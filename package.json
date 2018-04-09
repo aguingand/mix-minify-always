@@ -1,0 +1,22 @@
+{
+  "name": "mix-minify-always",
+  "version": "0.0.2",
+  "description": "Minify asset in laravel mix even in dev/watch mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laravel-mix",
+    "minify"
+  ],
+  "bugs": {
+    "url":"https://github.com/aguingand/mix-minify-always/issues"
+  },
+  "repository":"aguingand/mix-minify-always",
+  "author": "Antoine Guingand",
+  "license": "ISC",
+  "peerDependencies": {
+    "laravel-mix": "2.x"
+  }
+}
