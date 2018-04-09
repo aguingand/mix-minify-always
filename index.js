@@ -1,9 +1,11 @@
+const mix = require('laravel-mix');
 const MinifyTask = require('./MinifyTask');
 
-module.exports = mix => {
-    mix.extend('minifyAlways', new class {
-        register(src='') {
-            Mix.addTask(new MinifyTask(src));
-        }
-    });
-};
+class MinifyAlways {
+    register(src='') {
+        Mix.addTask(new MinifyTask(src));
+    }
+}
+
+mix.extend('minifyAlways', new MinifyAlways());
+

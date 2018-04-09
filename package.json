@@ -1,6 +1,6 @@
 {
   "name": "mix-minify-always",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minify asset in laravel mix even in dev/watch mode",
   "main": "index.js",
   "scripts": {
